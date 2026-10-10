@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+PackageIdentifier: PersianCalendar.PersianCalendar
+PackageVersion: 5.7.17
+InstallerType: exe
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+InstallerSwitches:
+  Silent: /silent
+  SilentWithProgress: /silent
+  Interactive: ""
+Installers:
+  - Architecture: x86
+    InstallerUrl: https://github.com/persian-calendar/persian-calendar-win32/releases/download/v5.7.17/setup.exe
+    InstallerSha256: 0b11448248e5de353701b2dd2c96d07c1615038d9e447fbb7756ddef2e79fce3
+    InstallerLocale: en-US
+    AppsAndFeaturesEntries:
+      - DisplayName: Persian Calendar
+        Publisher: Persian Calendar
+        DisplayVersion: 5.7.17
+        ProductCode: PersianCalendarWin32
+ManifestType: installer
+ManifestVersion: 1.6.0

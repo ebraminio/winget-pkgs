@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+PackageIdentifier: PersianCalendar.PersianCalendar
+PackageVersion: 5.7.17
+PackageLocale: en-US
+Publisher: Persian Calendar
+PublisherUrl: https://github.com/persian-calendar/persian-calendar-win32
+Author: Persian Calendar
+PackageName: Persian Calendar
+PackageUrl: https://github.com/persian-calendar/persian-calendar-win32
+License: LGPL-3.0-or-later
+LicenseUrl: https://github.com/persian-calendar/persian-calendar-win32/blob/main/COPYING
+ShortDescription: Persian calendar tray icon and date converter
+Description: |
+  A lightweight Persian calendar that lives in the system tray.
+  Shows the current Persian date, converts between Persian and Gregorian
+  dates, and optionally displays a calendar widget on the desktop.
+Tags:
+  - calendar
+  - persian
+  - jalali
+  - tray
+  - utility
+ReleaseNotesUrl: https://github.com/persian-calendar/persian-calendar-win32/releases/tag/v5.7.17
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
